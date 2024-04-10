@@ -24,8 +24,7 @@ export default async function Home() {
       </div>
 
       <div className="px-5 mt-6">
-
-      <Search />
+        <Search />
       </div>
 
       <div className="px-5 mt-6">
