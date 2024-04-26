@@ -16,7 +16,6 @@ import { Loader2 } from "lucide-react";
 import { toast } from "sonner";
 import { useRouter } from "next/navigation";
 import { getDayBookings } from "../_actions/get-day-bookings";
-import { split } from "postcss/lib/list";
 
 interface ServiceItemProps {
     barbershop: Barbershop;
