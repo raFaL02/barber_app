@@ -105,8 +105,8 @@ async function seedDatabase() {
         data: {
           name,
           address,
-          imageUrl,
-        }
+          imageUrl: imageUrl,
+        },
       });
 
       for (const service of services) {
