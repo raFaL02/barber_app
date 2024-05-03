@@ -38,5 +38,4 @@ next-env.d.ts
 .env
 
 #docker
-
-.postgres-data
+/.postgres-data
