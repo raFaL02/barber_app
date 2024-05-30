@@ -163,7 +163,7 @@ const BookingItem = ({booking}: BookingItemProps) => {
                                         </AlertDialogDescription>
                                     </AlertDialogHeader>
                                     <AlertDialogFooter className="flex-row gap-3">
-                                        <AlertDialogCancel className="w-full mt-0">Cancelar</AlertDialogCancel>
+                                        <AlertDialogCancel className="w-full mt-0">Voltar</AlertDialogCancel>
                                         <AlertDialogAction disabled={isDeleteLoading} onClick={handleCancelClick} className="w-full ">
                                         {isDeleteLoading && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
                                             Confirmar
